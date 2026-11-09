@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A lens on a probe cable. 108dp adaptive-icon canvas, artwork kept inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- cable -->
+    <path
+        android:pathData="M54,62 V70 Q54,80 44,80 H36"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- lens body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,44 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0" />
+    <!-- glass -->
+    <path
+        android:fillColor="#123F3D"
+        android:pathData="M43,44 a11,11 0 1,0 22,0 a11,11 0 1,0 -22,0" />
+    <!-- glint -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,40 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+</vector>

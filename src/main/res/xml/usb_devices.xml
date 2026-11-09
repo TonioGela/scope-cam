@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Devices that launch the app when plugged in. IDs are decimal. -->
+<resources>
+    <!-- UVC: video class, or misc class with interface association -->
+    <usb-device class="14" />
+    <usb-device class="239" subclass="2" />
+    <!-- Geek szitman supercamera 0x0329:0x2022 and 0x2ce3:0x3828 -->
+    <usb-device vendor-id="809" product-id="8226" />
+    <usb-device vendor-id="11491" product-id="14376" />
+</resources>
