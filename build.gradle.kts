@@ -13,6 +13,8 @@ android {
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
+        // Phones are ARM; x86 only matters for emulators and a few Chromebooks, and its native libs doubled the APK.
+        ndk { abiFilters += setOf("arm64-v8a", "armeabi-v7a") }
     }
 
     buildTypes {
