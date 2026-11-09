@@ -1,0 +1,17 @@
+# Same build F-Droid runs on each tag (assembleRelease), plus the unit tests, so a broken tag shows up here first.
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: gradle
+      # The Android SDK comes preinstalled on GitHub's Ubuntu runners.
+      - run: ./gradlew testDebugUnitTest assembleRelease
