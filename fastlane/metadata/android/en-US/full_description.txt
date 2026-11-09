@@ -1,0 +1,17 @@
+<p>ScopeCam is a tiny viewer for the cheap USB cameras sold as borescopes, endoscopes, inspection cameras and digital microscopes. Plug one in and see the picture: no ads, no accounts, no vendor app.</p>
+
+<p><b>Supported cameras</b></p>
+<ul>
+<li><b>Standard USB (UVC) cameras</b>: most borescopes, endoscopes and webcams. Pick any resolution and format the camera offers; ScopeCam starts on the sharpest one that still runs smoothly (MJPEG).</li>
+<li><b>“Supercamera” microscopes and endoscopes</b>: devices that identify as <i>Geek szitman supercamera</i> (USB IDs 0329:2022 and 2ce3:3828), which don't work in regular camera apps.</li>
+</ul>
+
+<p><b>Features</b></p>
+<ul>
+<li>Opens automatically when a supported camera is plugged in</li>
+<li>The camera's own photo button saves a picture to Pictures/ScopeCam</li>
+<li>True fullscreen, orientation lock</li>
+<li>No internet permission, no tracking</li>
+</ul>
+
+<p>Your phone needs USB host (OTG) support, which almost all modern phones have.</p>

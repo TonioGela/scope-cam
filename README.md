@@ -11,3 +11,7 @@ Supports:
 nix-shell --run './gradlew testDebugUnitTest assembleDebug'
 nix-shell --run 'adb install -r build/outputs/apk/debug/scope-camera-debug.apk'
 ```
+
+## License
+
+Apache-2.0, see [LICENSE](LICENSE) and [NOTICE](NOTICE).
